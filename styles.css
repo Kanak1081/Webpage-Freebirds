@@ -1,0 +1,105 @@
+#FlexParent{
+    display: flex;
+    margin-top: 5%;
+    background-image: url("https://i.ibb.co/VgZZHPR/contact-bg.png"); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+      height: 100%;
+      
+      padding-top: 5%;
+      padding-bottom: 5%;
+      
+  }
+  
+  .space{
+    flex-grow: 1;
+  }
+  #text{
+    flex-grow: 1;
+    padding-top: 5%;
+  }
+  #formcontainer{
+    flex-grow: 1;
+   
+  }
+  
+  
+  #text h2{
+    color: white;
+  }
+  #text p{
+    color: white;
+  }
+  #text h3{
+    color: white;
+  }
+  
+  .container {
+    /* background: blue; */
+    /* flex-grow: 1; */
+  /* position: absolute; */
+  /* right: 0; */
+  margin: 20px;
+  max-width: 500px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 5%;
+  
+  }
+  
+  /* Full-width input fields */
+  .row{
+    display: flex;
+  }
+  #name1{
+   flex-grow: 1;
+   padding: 10px;
+   margin-right: 5px;
+   margin-bottom: 15px;
+    border: none;
+    border-radius: 10%;
+    background: #d5edfb;
+  }
+  #name2{
+    flex-grow: 1;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10%;
+    background: #d5edfb;
+  }
+  #email {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: none;
+    border-radius: 10%;
+    background: #d5edfb;
+  }
+  textarea{
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 15px 0;
+    border: none;
+    border-radius: 10%;
+    background: #d5edfb;
+  }
+  
+  
+  
+  /* Set a style for the submit button */
+  .btn {
+  background-color: #24a0ed;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  border-radius: 30%;
+  }
+  
+  
+  
+  
