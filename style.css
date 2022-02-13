@@ -228,16 +228,6 @@ h3{
 }
 /* second section styles end....... */
 
-
-
-
-
-/* Kanak's style starts here */
-
-
-
-
-
 /* Second sections styles ends here*/
 
 #secondSectionParent{
@@ -245,7 +235,7 @@ h3{
 }
 
 
-
+/* third sections styles start here*/
 
 
 /* Third Section styles */
@@ -369,6 +359,92 @@ h3{
 
 
 
+/* Lubna Fifth section....... */
+#fifth{
+    display: flex;
+    
+}
+#fif1{
+    /* margin-right:180px; */
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#fif2{
+    flex-grow: 2;
+
+}
+.fifone,#abc{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.fivimg img{
+    border-radius: 20px;
+    
+    margin-left: 50px;
+    
+}
+.fifone h4,p{
+    color:rgba(19, 20, 20, 0.9)
+}
+#fiv2img img{
+    margin-left: 300px;;
+}
+#fiv12{
+    background-color: rgb(224, 233, 233);
+    border-radius: 10px;
+    width: 450px;
+    height: 250px;
+    font-size: medium;
+    
+    position:absolute ;
+    padding: 10px;
+    top:350px;
+    
+    left: 20px;
+    
+    
+
+}
+#fivbtn{
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 18px;
+    color:white;
+    background-color: rgb(31, 129, 221);
+    height: 40px;
+    width:150px;
+
+}
+#abcd{
+
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(19, 20, 20, 0.7);
+    
+
+    
+}
+ #fivp{
+    position: relative;
+    
+    
+}
+#fivp img{
+
+border-radius: 10px;}
+
+
+
+
+
+
+
+
+/* fifth section end... */
 
 
 
