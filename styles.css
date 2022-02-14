@@ -414,9 +414,69 @@ h3{
         font-weight: 600;
     }
 }
-@media only screen and (min-width:600px){}
-@media only screen and (min-width:768px){}
-@media only screen and (min-width:992px){}
+@media only screen and (min-width:801px){
+    #thirdSectionParent{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10%;
+    }
+    .thirdSectionSpace{
+        flex-grow: 1;
+    }
+    #thirdSectionImage{
+        flex-grow: 1;
+        height: 32vh;    
+        margin-top: 5%;
+    }
+    #thirdSectionContent{
+        flex-grow: 1;
+    }
+    #thirdSectionContent p{
+        color: black;
+        margin-top: 4%;
+    }
+    #thirdSectionContent .thirdSectionContainer{
+        background-color: #ddd;
+        border-radius: 20px;
+    }
+    #templateText{
+        margin-bottom: 7%;
+    }
+    .skills {
+        text-align: right;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        color: white;  
+    }
+      
+    .js {width: 84%; background-image: linear-gradient(to right, #fe472d , #ff3162);border-radius: 20px;}
+    .reports{width: 88%; background-image: linear-gradient(to right, #fe472d , #ff3162);border-radius: 20px;}
+    .optimizations{width: 94%; background-image: linear-gradient(to right, #fe472d , #ff3162);border-radius: 20px;}
+    .description{
+        margin-top: 3%;
+        margin-bottom: 1%;
+        display: flex;
+        flex-direction: row;
+    }
+    .deshead{
+        flex-grow: 1;
+        font-weight: 700;
+    }
+    .desspace1{
+        flex-grow: 3;
+    }
+    .desspace2{
+        flex-grow: 5;
+    }
+    .desspace3{
+        flex-grow: 9;
+    }
+    .percent{
+        flex-grow: 1;
+        color: #24a0ed;
+        font-weight: 600;
+    }
+}
 @media only screen and (min-width:1200px){
     #thirdSectionParent{
         display: flex;
@@ -480,6 +540,8 @@ h3{
         font-weight: 600;
     }
 }
+
+
 
 
 
@@ -806,6 +868,49 @@ textarea{
         text-align: center;
     }
 
+}
+@media only screen and (min-width:801px){
+    #FlexParent{
+        display: flex;
+        margin-top: 5%;
+        width: 100%;  
+    }
+    #text{
+        flex-grow: 1;
+        padding-top: 5%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #formcontainer{
+        flex-grow: 2;
+        margin-left: 3%;
+        margin-right: 5%;
+    }
+    #text h2{
+        color: white;
+    }
+    #text p{
+        color: white;
+        margin-top: 5%;
+    }
+    #text h3{
+        color: white;
+        margin-top: 10%;
+    }
+    .container {
+      max-width: 400px;
+      padding: 10% 5% 5% 5%;
+      background-color: white;
+      border-radius: 30px;
+    }
+    /* Full-width input fields */
+    .row{
+        display: flex;
+    }
+    
+    
 }
 
 /*background-image: linear-gradient(to right, #fe472d , #ff3162);*/
