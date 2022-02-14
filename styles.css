@@ -124,7 +124,7 @@ a{text-decoration: none;}
 /*##  Lubna's code.......... */
 #parents{
     display: flex;
-    margin-top: 5%;
+    
     width:100%
 }
 #content{
@@ -186,8 +186,8 @@ h3{
     border: 2px solid rgb(43, 171, 245);
     background-color: rgb(43, 171, 245);
     border-radius: 30px;
-    width: 350px;
-    height: 40px;
+    width: 24vw;
+    height: 5vh;
     padding: 4px;
     margin: 2%;
 }
@@ -216,8 +216,7 @@ h3{
         display: flex;
     
         
-        width: 150px;
-        height: 20px;
+       
         padding: 2px;
     }
     #one img{
