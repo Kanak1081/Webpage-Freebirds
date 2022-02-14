@@ -124,8 +124,6 @@ a{text-decoration: none;}
 /*##  Lubna's code.......... */
 #parents{
     display: flex;
-    height:100vh;
-
     margin-top: 5%;
 }
 #content{
