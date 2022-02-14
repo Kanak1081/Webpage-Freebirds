@@ -121,16 +121,16 @@ a{text-decoration: none;}
 
 /*NAVBAR STYLES ends */
 
-
-/* ##  Lubna's code.......... */
+/*##  Lubna's code.......... */
 #parents{
     display: flex;
-    height: 600px;
-    overflow-y: hidden;
+    height:100vh;
+
+    margin-bottom: 5%;
 }
 #content{
 
-    margin-top: 130px;
+    margin-top: 10%;
     font-family:'Times New Roman', Times, serif;
     
     flex-grow: 2;
@@ -138,7 +138,7 @@ a{text-decoration: none;}
     
 }
 #one img{
-    width: 180px;
+    width:12vw;
 }
 p{
     color: rgba(0, 0, 15, 0.7);
@@ -151,13 +151,12 @@ h3{
 }
 #red{
     color: rgb(226, 21, 55);}
-#two{
+#two img{
     flex-grow: 3;
-    height: 500px;
-    width:500px;
-    margin-top: 150px;
-    margin-right: 50px;
-    
+    height: 55vh;
+    width:35vw;
+    margin-top: 35%;
+    margin-right: 5%;
 }
 #three img{
     display: flex;
@@ -167,7 +166,7 @@ h3{
     
 }#space{
     flex-grow: 2;
-    margin-top: 10px;
+    margin-top: 2%;
     font-size: medium;
     color:rgba(234, 234, 255, 0.7);
 }
@@ -190,12 +189,12 @@ h3{
     width: 350px;
     height: 40px;
     padding: 4px;
-    margin: 2px;
+    margin: 2%;
 }
-@media only screen and (max-width:780px){
-    #parents{
+@media only screen and (max-width:700px){
+    parents{
         display: flex;
-        height: 600px;
+        flex-direction: column;
     }
     #two img{
         flex-grow: 3;
