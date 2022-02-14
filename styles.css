@@ -125,6 +125,7 @@ a{text-decoration: none;}
 #parents{
     display: flex;
     margin-top: 5%;
+    width:100%
 }
 #content{
 
@@ -150,11 +151,12 @@ h3{
 #red{
     color: rgb(226, 21, 55);}
 #two img{
-    flex-grow: 3;
-    height: 55vh;
-    width:35vw;
-    margin-top: 35%;
+     flex-grow: 3;
+    height: 60vh;
+    width:40vw;
+    margin-top: 10%;
     margin-right: 5%;
+
 }
 #three img{
     display: flex;
